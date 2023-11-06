@@ -1,0 +1,56 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #ff0095;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    width: 80px;
+    height: 20px;
+    background-color:  #51ff00;
+    color: #0066ff;
+    border: none;
+    /* Adicione outros estilos conforme necessário */
+}
+
+.divider {
+    color: #0011ff;
+}
+
+/* Estilos para a galeria de imagens */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+body {
+    background-color: #e100ff;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #ff00aa;
+    color: #0011ff;
+    text-align: center;
+    padding: 10px 0;
+}
