@@ -4,7 +4,7 @@
 }
 /* Estilos para o cabeçalho */
 header {
-    background-color: #ff0095;
+    background-color: #000000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,15 +18,15 @@ a {
 
 .button {
     width: 80px;
-    height: 20px;
-    background-color:  #51ff00;
-    color: #0066ff;
+    height: px;
+    background-color:  #000000;
+    color: #000000;
     border: none;
     /* Adicione outros estilos conforme necessário */
 }
 
 .divider {
-    color: #0011ff;
+    color: #ffffff;
 }
 
 /* Estilos para a galeria de imagens */
@@ -43,7 +43,7 @@ a {
     margin-bottom: 10px;
 }
 body {
-    background-color: #e100ff;
+    background-color: #fa4ab4;
 }
 
 img {
@@ -53,8 +53,8 @@ img {
 
 /* Estilos para o rodapé */
 footer {
-    background-color: #ff00aa;
-    color: #0011ff;
+    background-color: #020202;
+    color: #ffffff;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
 }
