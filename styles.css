@@ -11,6 +11,8 @@ header {
     padding: 10px;
 }
 
+
+
 a {
     text-decoration: none;
     color: white;
@@ -35,6 +37,25 @@ a {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+}
+
+.image-container {
+    max-width: 30%;
+    text-align: center;
+    border: solid #000000;
+    border-radius: 10px;
+    background-color: rgb(177, 6, 177);
+    margin: 30px;
+}
+
+.image-container > img {
+    margin: 10px;
+    border-radius: 10px;
+    border: solid black;
+}
+
+.image-container > h1 {
+    margin: 30px;
 }
 
 .row {
