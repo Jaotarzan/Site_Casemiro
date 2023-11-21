@@ -6,7 +6,7 @@
     <title>Pé na cova</title>
     <link rel="shortcut icon" href="img/cemi.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
-
+    
 </head>
 
 <body>
@@ -45,15 +45,29 @@
             <img src="./img/crepusculo.png" alt="Imagem 6">
             <h2>Combo filmes e séries:<br>para os maiores fãs existentes. </h2>
         </div>
+
     </div>
 
     <footer>
-        <p>Sua morte nossa alegria!
+        <button id="agendamento-button">Agende já a sua consulta</button>
+        <dialog>
+            <form>
+                <label for="">Informe o seu nome</label><br>
+                <input type="text" placeholder="nome" id="nome"> <br>
+                <label for="" >Informe a data que deseja marcar a sua consulta</label> <br>
+                <input type="date" id="data"> <br>
+                <label for="">Informe seu email e número de contato</label><br>
+                <input type="email" placeholder="email" id="email"><br>
+                <input type="number" placeholder="número" id="num"><br>
+                <button id="agendamento-close">Agendar</button>
+                <button id="agendamento-cancela">Cancelar</button>
+            </form>
+        </dialog>
+        <p>Sua morte nossa alegria!</p>
         <p> entre em contato: Lotin_maria</p>
-        </p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="./agendamento.js"></script>
 </body>
 
 </html>

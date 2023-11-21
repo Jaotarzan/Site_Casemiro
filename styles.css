@@ -11,8 +11,6 @@ header {
     padding: 10px;
 }
 
-
-
 a {
     text-decoration: none;
     color: white;
@@ -83,4 +81,31 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 15px 0;
+}
+
+footer button {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    padding: 1%;
+    cursor: pointer;
+}
+
+dialog  {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.534);
+    margin: 100px;
+    width: 400px;
+}
+
+dialog > form {
+    margin: 5%;
+}
+
+dialog > form input {
+    margin: 3%;
+    border-radius: 5px;
+    border: 1px solid #000000;
 }
