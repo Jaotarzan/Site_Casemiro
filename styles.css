@@ -90,6 +90,11 @@ footer button {
     border-radius: 5px;
     padding: 1%;
     cursor: pointer;
+    font-size: large;
+}
+
+dialog::backdrop {
+    background-color: #0000007a;
 }
 
 dialog  {
@@ -107,5 +112,5 @@ dialog > form {
 dialog > form input {
     margin: 3%;
     border-radius: 5px;
-    border: 1px solid #000000;
+    border: 0.2px solid #000000;
 }
